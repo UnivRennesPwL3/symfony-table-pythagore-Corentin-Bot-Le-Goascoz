@@ -1,4 +1,5 @@
 {% extends 'base.html.twig' %}
 
-{% block content %} {{ htmlResponse }} {% endblock %}
+
+{% block content %} <!-- Raw pour ne pas avoir juste le texte -->{{ htmlResponse | raw }} {% endblock %}
 
